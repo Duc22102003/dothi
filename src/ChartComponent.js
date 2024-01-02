@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Line } from "react-chartjs-2";
 import { sData } from "./const";
 import Chart from "chart.js/auto";
-
+import axios from "axios";
 function App() {
   const [data, setData] = useState(null);
   const [chartData, setChartData] = useState({ labels: [], datasets: [] });
