@@ -4,7 +4,7 @@ import ChartComponent from './ChartComponent';
 const App = () => {
   return (
     <div>
-      <h1>DATA CHART</h1>
+      <h1>son son</h1>
       <ChartComponent />
     </div>
   );
